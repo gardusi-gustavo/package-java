@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document build and layout",
+  "context": "The layout is new.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document src, examples, and Maven commands.",
+    "expected_outcome": "A contributor can build in one page.",
+    "acceptance_criteria": [
+      "README links docs",
+      "Commands are current"
+    ]
+  },
+  "attempts": []
+}

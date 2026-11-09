@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze Maven coordinates",
+  "context": "The groupId, artifactId, and version are the public contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review the root pom and document coordinates.",
+    "expected_outcome": "Consumers can depend on one stable coordinate.",
+    "acceptance_criteria": [
+      "Coordinates are documented",
+      "mvn test passes"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,18 @@
+{
+  "rank": "2.4",
+  "title": "Add Javadoc publishing",
+  "context": "There is no API documentation.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add Javadoc generation to CI.",
+    "expected_outcome": "The library has generated API docs.",
+    "acceptance_criteria": [
+      "Javadoc builds",
+      "Docs are linked"
+    ]
+  },
+  "attempts": []
+}

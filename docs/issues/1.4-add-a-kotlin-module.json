@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add a Kotlin module",
+  "context": "Java and Kotlin share the JVM target.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a Kotlin module or example.",
+    "expected_outcome": "Kotlin consumers have a reference.",
+    "acceptance_criteria": [
+      "Kotlin builds",
+      "Java library stays unchanged"
+    ]
+  },
+  "attempts": []
+}

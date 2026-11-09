@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add integration tests",
+  "context": "Only the unit test exists.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add one integration test for the example.",
+    "expected_outcome": "The example is tested outside publishing.",
+    "acceptance_criteria": [
+      "Integration test runs",
+      "Library stays framework-free"
+    ]
+  },
+  "attempts": []
+}

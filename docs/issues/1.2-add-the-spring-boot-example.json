@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add the Spring Boot example",
+  "context": "The example is a reference only.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Make the example build against the installed library.",
+    "expected_outcome": "A contributor can run the demo.",
+    "acceptance_criteria": [
+      "Example compiles",
+      "Example is excluded from publish"
+    ]
+  },
+  "attempts": []
+}
